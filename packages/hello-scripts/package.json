@@ -1,0 +1,29 @@
+{
+  "name": "hello-scripts",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "ecuster <951092973@qq.com>",
+  "homepage": "https://github.com/jsweber/create-hello-app#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsweber/create-hello-app.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/hello-scripts.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jsweber/create-hello-app/issues"
+  }
+}
